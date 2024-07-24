@@ -25,6 +25,8 @@
 // MKS Robin Nano V3, MKS Eagle pinmap
 //
 
+//#define MKS_TEST  да ама с нищо не ми помогна
+
 #define HAS_OTG_USB_HOST_SUPPORT                  // USB Flash Drive support
 
 // Avoid conflict with TIMER_TONE
@@ -169,7 +171,8 @@
 #endif
 
 #ifndef POWER_LOSS_PIN
-  #define POWER_LOSS_PIN                    PA13  // PW_DET
+  // иначе "Power Outage" при стартиране на програма (трябва да го подпираме)
+  //#define POWER_LOSS_PIN                    PA13  // PW_DET
 #endif
 
 //#define SUICIDE_PIN                       PB2

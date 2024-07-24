@@ -126,8 +126,8 @@ void gCfgItems_init() {
   gCfgItems.curFilesize       = 0;
   gCfgItems.finish_power_off  = false;
   gCfgItems.pause_reprint     = false;
-  gCfgItems.pausePosX         = -1;
-  gCfgItems.pausePosY         = -1;
+  gCfgItems.pausePosX         = 50; //-1;
+  gCfgItems.pausePosY         = 0;  //-1;
   gCfgItems.pausePosZ         = 5;
   gCfgItems.trammingPos[0].x  = X_MIN_POS + 30;
   gCfgItems.trammingPos[0].y  = Y_MIN_POS + 30;
@@ -143,9 +143,9 @@ void gCfgItems_init() {
   gCfgItems.wifi_mode_sel = STA_MODEL;
   gCfgItems.fileSysType   = FILE_SYS_SD;
   gCfgItems.wifi_type     = ESP_WIFI;
-  gCfgItems.filamentchange_load_length   = 200;
-  gCfgItems.filamentchange_load_speed    = 1000;
-  gCfgItems.filamentchange_unload_length = 200;
+  gCfgItems.filamentchange_load_length   = 40;  //200;
+  gCfgItems.filamentchange_load_speed    = 250; //1000;
+  gCfgItems.filamentchange_unload_length = 120; //200;
   gCfgItems.filamentchange_unload_speed  = 1000;
   gCfgItems.filament_limit_temp          = 200;
 
