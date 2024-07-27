@@ -1602,7 +1602,7 @@
 //за оригиналната глава на SUNLU работи добре с M851 Z-3.1 върху огледало
 //#define NOZZLE_TO_PROBE_OFFSET { -28.5, 4, 0}
 //за  Ender-3 CR10 глава слагам я с BMG Dual Drive екструдер
-#define NOZZLE_TO_PROBE_OFFSET { -42.0, -11, 0}
+#define NOZZLE_TO_PROBE_OFFSET { -41.5, -6, 0}
 
 // Enable and set to use a specific tool for probing. Disable to allow any tool.
 #define PROBING_TOOL 0
