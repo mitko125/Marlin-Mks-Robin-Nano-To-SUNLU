@@ -3449,7 +3449,10 @@
   /**
    * Step on both rising and falling edge signals (as with a square wave).
    */
-  #define EDGE_STEPPING
+  //#define EDGE_STEPPING
+  //някакъв глупак го активирал по подразбиране и ми изгуби половин ден
+  //в по-стари варианти е //#define SQUARE_WAVE_STEPPING но сега ако го забраним иска и:
+  #define NO_EDGE_STEPPING_WARNING
 
   /**
    * Enable M122 debugging command for TMC stepper drivers.
