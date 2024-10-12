@@ -9,3 +9,7 @@
 Работно е вече новото хранилище [Marlin-SUNLU-S9-MKS-Robin-Nano-V3](https://github.com/Mitko125/Marlin-SUNLU-S9-MKS-Robin-Nano-V3)
 
 Но тук има повече и по-подрбни ангажименти на Български.
+
+Малко учебно за да създадем Extended description към Commit message във VS Code:
+
+трябват няколко Enter в прозореца на Commit
