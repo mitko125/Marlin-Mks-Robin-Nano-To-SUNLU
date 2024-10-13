@@ -6,7 +6,7 @@
 
 Всичко е правено в Git и сега го прехвърлих в GitHub.
 
-Работно е вече новото хранилище [Marlin-SUNLU-S9-MKS-Robin-Nano-V3](https://github.com/Mitko125/Marlin-SUNLU-S9-MKS-Robin-Nano-V3)
+Работно е вече новото хранилище [SUNLU-S9-MKS-Robin-Nano-V3](https://github.com/Mitko125/SUNLU-S9-MKS-Robin-Nano-V3)
 
 Но тук има повече и по-подрбни ангажименти на Български.
 
